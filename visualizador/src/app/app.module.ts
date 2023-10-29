@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CourseModule } from './course/course.module';
+import { SerieModule } from './serie/serie.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { CourseModule } from './course/course.module';
   imports: [
     BrowserModule,
     HttpClientModule,
-    CourseModule,
+    SerieModule,
     AppRoutingModule
   ],
   providers: [],
