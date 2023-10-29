@@ -10,13 +10,13 @@ import { SerieService } from './serie.service';
 export class SerieComponent implements OnInit {
 
   
-  courses: Array<Serie> = [];
+  series: Array<Serie> = [];
   average: number = 0;
   constructor(private serieService: SerieService) { }
 
   
 
-  getCourses() {
+  getSeries() {
     this.serieService.getSeries().subscribe(series => {
       this.series = series;
       this.average = 0;

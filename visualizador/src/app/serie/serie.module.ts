@@ -9,4 +9,4 @@ import { SerieComponent } from './serie.component';
   declarations: [SerieComponent],
   exports: [SerieComponent]
 })
-export class SerieeModule { }
+export class SerieModule { }
